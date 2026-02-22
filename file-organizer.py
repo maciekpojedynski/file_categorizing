@@ -17,7 +17,7 @@ def find_category(file_suffix: str) -> str:
         if file_suffix in value:
             return key
 
-    return 'Inne'
+    return 'Innee'
 
 current_path = Path('.')
 
